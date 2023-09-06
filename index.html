@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Challenge</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <form id="form" action="https://jsonplaceholder.typicode.com/users" method="post" class="form-conteiner">
+        <h2>Ingresa tus datos:</h2>
+        <div class="input-conteiner">
+            <label for="name">NOMBRE:</label>
+            <input type="text" name="name" id="name">
+        </div>
+        <div class="input-conteiner">
+            <label for="surname">APELLIDO:</label>
+            <input type="text" name="surname" id="surname">
+        </div>
+        <div class="input-conteiner">
+            <label for="dateOfBirth">FECHA DE NACIMIENTO:</label>
+            <input type="date" name="dateOfBirth" id="dateOfBirth">
+        </div>
+        <button id="button" type="submit">ENVIAR</button>
+    </form>
+</body>
+<script src="./script.js"></script>
+</html>
